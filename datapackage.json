@@ -19,7 +19,128 @@
     {
       "path": "data/example-agrometeo-data-daily-ARTH.csv",
       "schema": {
-        "fields": []
+        "fields": [
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Date"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "Temperatur mittel [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "min. Temperatur [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "max. Temperatur [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "Temperatursumme [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Temperatur mittel +5cm [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Temperatur min. +5cm [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Temperatur max. +5cm [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Temperatur -10cm [\u00baC]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Temperatur -10cm Gradetage [\u00baC-jours]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "Rel. Feuchte mittel [%]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "Rel. Feuchte min. [%]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "Rel. Feuchte max. [%]"
+          },
+          {
+            "format": "default",
+            "type": "integer",
+            "name": "Niederschlagsintensit\u00e4t [mm/h]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "Niederschlag [mm]"
+          },
+          {
+            "format": "default",
+            "type": "number",
+            "name": "kumulierte Niederschlag [mm]"
+          },
+          {
+            "format": "default",
+            "type": "integer",
+            "name": "Blattnassdauer [min]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Windrichtung [\u00ba]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Windgeschwindigkeit mittel [m/sec]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Globalstrahlung [WH/m2]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "ETP [mm]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Lichtst\u00e4rke [X]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Windgeschwindigkeit max. [m/sec]"
+          },
+          {
+            "format": "default",
+            "type": "string",
+            "name": "Luftdruck auf Meeresh\u00f6he [hpa]"
+          }
+        ]
       }
     }
   ],
